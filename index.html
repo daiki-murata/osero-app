@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<meta http-equiv="content-type" charset="utf-8">
+<html>
+<head>
+<title>JavaScriptでオセロゲームを作る</title>
+<style type="text/css">
+#field td {
+border: 1px solid black;
+width: 50px;
+height: 50px;
+background-color: green;
+text-align: center;
+vertical-align: middle;
+table-layout: fixed;
+padding: 1px 1px 1px 1px;
+font-size: 33px;
+}
+</style>
+
+</head>
+
+<body>
+
+<!- 盤面 ->
+<table id="field"></table>
+<!- ターンの表示 ->
+<p id="view_tarn"></p>
+<!- 初期化ボタン ->
+<button type="button" id="ban_init" onclick="ban_init()">やり直し</button>
+
+<script src="main.js"></script>
+
+</body>
+</html>
